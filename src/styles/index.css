@@ -1,0 +1,11 @@
+.bg-black {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh; /* Ensures the div covers the full height of the viewport */
+    overflow-x: hidden; /* Prevents horizontal scroll if any child element overflows */
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  

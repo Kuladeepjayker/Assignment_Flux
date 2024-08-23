@@ -1,0 +1,46 @@
+  /* Hero.css */
+  .hero-section{
+    background-image: url('../../public/Assets/Background.png') !important;
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    box-shadow: none; /* Optional: Remove box-shadow if needed */
+    padding: 15rem 1rem;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+  }
+
+  .display-1, .lead {
+    font-family: 'Altivo', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+  }
+
+/* Media Query for Mobile (max-width: 390px) */
+@media (max-width: 390px) {
+
+  .hero-section{
+    background-image: none !important;
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    box-shadow: none; /* Optional: Remove box-shadow if needed */
+    padding: 1rem 1rem;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+  }
+
+  .display-1, .lead {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 300;
+    font-size: large;
+  }
+  
+  .caroisel-img {
+    height: 10rem;
+    width: 100%;
+  }
+}

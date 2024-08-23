@@ -1,0 +1,110 @@
+  .starBox-text2 {
+    text-align: left;
+    width: 70%;
+    font-family: 'Altivo', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+  }
+  
+  .circle-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .circle-text ul li {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .circle-number {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: none; /* Dark grey circle background */
+    color: #eed4c5dc;
+    text-align: center;
+    border: #eed4c5dc 1px solid;
+    font-size: 1.5rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circle-text {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 200;
+    font-size: larger;
+  }
+  
+  .feature-text {
+    width: 170%;
+  }
+  
+  .circle-wrapper {
+    position: relative;
+    text-align: center; /* Centers the circle within the wrapper */
+    margin-bottom: 30px; /* Space between each circle */
+  }
+  
+  .circle-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 75%;
+    background-color: #eed4c5dc;
+  }
+  
+  
+  /* Media Queries for 390px Width */
+  @media (max-width: 390px) {
+
+    .starBox-text2 {
+      text-align: left;
+      width: 80%;
+      font-family: 'Altivo', sans-serif;
+      font-weight: 200;
+      font-size: 34;
+      margin-top: 2rem;
+      height: 17rem;
+    }
+    
+    .circle-wrapper {
+      margin-bottom: 2rem;
+    }
+  
+    .circle-number {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+      justify-content: center;
+      align-items: center; 
+    }
+  
+    .circle-column {
+      flex: 0 0 12%; /* Reduce the width of the circle column */
+      padding-right: 0; /* Remove the right padding to reduce the gap */
+    }
+    
+    .circle-text {
+      flex: 0 0 70%; /* Increase the width of the text column */
+      padding: 0 3rem 0rem 0; /* Remove the left padding to reduce the gap */
+      font-size: 1rem; /* Ensure the text size is as desired */
+    }
+  
+    .circle-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 34%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: #eed4c5dc;
+    }
+  
+  }

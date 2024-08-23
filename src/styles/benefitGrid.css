@@ -1,0 +1,70 @@
+  .benefit-btn {
+    text-align: left;
+  }
+  
+  .benefits-grid {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 8rem;
+  }
+  
+  .benefit-card {
+    background-color: rgba(12, 12, 12, 0.884); /* Slightly lighter background for cards */
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(12, 12, 12, 0.884);
+    font-family: 'Altivo', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    width: 14rem;
+  }
+  
+  .benfit-text {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 200;
+  }
+  
+  .benfit-img {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+  }
+  
+  .benefit-card .card-title {
+    color: #eed4c5dc; /* Gold color for titles */
+  }
+  
+  .benefit-card .card-text {
+    color: #ccc; /* Light grey for text */
+  }
+
+  
+  /* Media Queries for 390px Width */
+  @media (max-width: 390px) {
+  
+    .benefits-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 Columns */
+      grid-template-rows: repeat(3, auto);   /* 3 Rows */
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .benefit-card {
+      width: 100%;
+      box-shadow: none;
+    }
+
+    .benfit-text {
+      font-family: 'Altivo', sans-serif;
+      font-weight: 200;
+      font-size: small;
+    }
+
+    .card-title{
+      font-family: 'Altivo', sans-serif;
+      font-weight: 400;
+      font-size: large;
+    }
+
+  }

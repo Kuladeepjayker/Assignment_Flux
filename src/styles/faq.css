@@ -1,0 +1,83 @@
+.custom-accordion {
+    max-width: 80rem;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .custom-accordion h2{
+    margin-top: 8rem;
+    text-align: left;
+    font-family: 'Altivo', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+  }
+
+  p {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 100;
+    font-size: larger;
+  }
+
+  .accordion-body {
+    margin-left: 3.2rem;
+    text-align: left;
+    transition: max-height 0.3s ease;
+  }
+  .accordion-header {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Altivo', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+  }
+  
+  .accordion-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-icon.rotate {
+    transform: rotate(270deg);
+  }
+
+  .accordion-icon.deg {
+    transform: rotate(360deg);
+  }
+
+
+    /* Media Queries for 390px Width */
+    @media (max-width: 390px) {
+  
+      .accordion-body {
+        margin-left: 2.2rem;
+        text-align: left;
+        transition: max-height 0.3s ease;
+        font-family: 'Altivo', sans-serif;
+        font-weight: 100;
+        font-size: smaller;
+      }
+      .accordion-header {
+        text-align: left;
+        display: flex;
+        padding: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: 'Altivo', sans-serif;
+        font-weight: 300;
+        font-size: medium;
+      }
+
+      .accordion-icon {
+        font-size: 2.5rem;
+      }
+
+      .custom-accordion h2{
+        margin-top: 2rem;
+        font-family: 'Altivo', sans-serif;
+        font-weight: 400;
+        font-size: x-large;
+      }
+    }

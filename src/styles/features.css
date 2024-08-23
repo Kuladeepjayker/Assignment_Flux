@@ -1,0 +1,93 @@
+/* custom.css */
+.mvp-subscription-section {
+  background-color: rgba(19, 18, 18, 0.952); /* Dark background color */
+  color: #fff; /* White text color */
+  height: 50rem;
+}
+
+.custom-col hr {
+  margin: 1.5rem 0;
+  border-color: #ccc9c9; /* Light grey divider */
+  width: 90%;
+}
+
+.benefit-btn {
+  text-align: left;
+}
+
+.cta-button {
+  background-color: #d32f2f; /* Red button color */
+  border: none;
+  margin-right: 1rem;
+  padding: 1rem 3rem;
+  font-family: 'Altivo', sans-serif;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.learn-more {
+  color: #ddd; /* Light color for learn more link */
+  text-decoration: underline;
+  font-family: 'Altivo', sans-serif;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.benfit-img {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+
+
+/* Media Queries for 390px Width */
+@media (max-width: 390px) {
+
+  .mvp-subscription-section {
+    height: auto;
+  }
+
+  .cta-button {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+    right: 0;
+    width: 90%;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    text-align: center; /* Center the button text */
+    margin: 0; /* Remove any margin */
+    border-radius: 10px; /* Remove rounded corners */
+  }
+
+  .learn-more {
+    display: block;
+    margin-top: 1rem;
+    font-size: medium;
+  }
+
+  .cta-text {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    right: 0;
+    width: 90%;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    text-align: center; /* Center the button text */
+    margin: 0; /* Remove any margin */
+    font-family: 'Altivo', sans-serif;
+    font-weight: 100;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.884);
+    
+  }
+
+  .custom-row {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+  }
+
+  .custom-col {
+    margin-top: -2rem;
+  }
+
+}

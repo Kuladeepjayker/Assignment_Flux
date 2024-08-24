@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Assignment_Flux/static/css/main.9dce4a05.css",
+    "main.js": "/Assignment_Flux/static/js/main.d467f175.js",
+    "static/js/453.5a06cb50.chunk.js": "/Assignment_Flux/static/js/453.5a06cb50.chunk.js",
+    "static/media/Background.png": "/Assignment_Flux/static/media/Background.1dc7eb9bf0611ba1bb5e.png",
+    "static/media/Fontspring-DEMO-altivo-ultra.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-ultra.8b5faed9123e54727277.otf",
+    "static/media/Fontspring-DEMO-altivo-black.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-black.69f9492f11e38355db4c.otf",
+    "static/media/Fontspring-DEMO-altivo-mediumitalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-mediumitalic.bac46fdd539b64f0c518.otf",
+    "static/media/Fontspring-DEMO-altivo-bolditalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-bolditalic.c4d47f25b20a46ff82a9.otf",
+    "static/media/Fontspring-DEMO-altivo-medium.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-medium.df65a5efa1bd3fd321b3.otf",
+    "static/media/Fontspring-DEMO-altivo-italic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-italic.444020a729ddb0957a8c.otf",
+    "static/media/Fontspring-DEMO-altivo-bold.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-bold.67e3f5faf9db86caea0f.otf",
+    "static/media/Fontspring-DEMO-altivo-regular.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-regular.70c170e695c5e7b5e4e2.otf",
+    "static/media/Fontspring-DEMO-altivo-blackitalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-blackitalic.29b07b34c642eb08676b.otf",
+    "static/media/Fontspring-DEMO-altivo-ultraitalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-ultraitalic.38d97c0807597929aaa0.otf",
+    "static/media/Fontspring-DEMO-altivo-extralight.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-extralight.9440441d55dfd51363fa.otf",
+    "static/media/Fontspring-DEMO-altivo-light.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-light.91f6720ba4c387c9c7c5.otf",
+    "static/media/Fontspring-DEMO-altivo-thin.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-thin.669527628266dd6ffd5e.otf",
+    "static/media/Fontspring-DEMO-altivo-extralightitalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-extralightitalic.f76c889677b3a194b44f.otf",
+    "static/media/Fontspring-DEMO-altivo-thinitalic.otf": "/Assignment_Flux/static/media/Fontspring-DEMO-altivo-thinitalic.6c7e1c84db3bc57c71e1.otf",
+    "index.html": "/Assignment_Flux/index.html",
+    "main.9dce4a05.css.map": "/Assignment_Flux/static/css/main.9dce4a05.css.map",
+    "main.d467f175.js.map": "/Assignment_Flux/static/js/main.d467f175.js.map",
+    "453.5a06cb50.chunk.js.map": "/Assignment_Flux/static/js/453.5a06cb50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dce4a05.css",
+    "static/js/main.d467f175.js"
+  ]
+}

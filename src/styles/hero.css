@@ -19,6 +19,16 @@
   }
 
 /* Media Query for Mobile (max-width: 390px) */
+@media (max-width: 1480px) {
+  .display-1, .lead {
+    font-family: 'Altivo', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    color: white;
+  }
+}
+
+/* Media Query for Mobile (max-width: 390px) */
 @media (max-width: 390px) {
 
   .hero-section{

@@ -2,7 +2,7 @@
   h5 {
     font-family: 'Altivo', sans-serif;
     font-weight: 400;
-    font-size:medium;
+    font-size: medium;
   }
 
   h6 {
@@ -60,6 +60,37 @@
  .custom-signin-button {
     border-radius: 50px;
   }
+
+  /* Media Query for Mobile (max-width: 390px) */
+@media (max-width: 1480px) {
+  h5 {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 200;
+    font-size: small;
+  }
+
+  h6 {
+    font-family: 'Altivo', sans-serif;
+    font-weight: 100;
+    font-size: x-small;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 1rem; /* Adjust gap between the nav items */
+    align-items: center;
+    margin-left: 25rem;
+    color: white;
+  }
+
+  .header-bottom {
+    display: flex;
+    gap: 2rem; /* Adjust gap between the nav items */
+    align-items: center;
+    margin: 1rem 2rem 0rem 28rem;
+    color: white;
+  }
+}
 
 
 /* Media Query for Mobile (max-width: 390px) */

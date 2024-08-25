@@ -23,7 +23,7 @@ function Hero() {
         <Carousel.Item>
           <img
             className="caroisel-img"
-            src="/Assets/Background.png"
+            src="Assets/Background.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -35,14 +35,14 @@ function Hero() {
         <Carousel.Item>
           <img
             className="caroisel-img"
-            src="/Assets/waving.svg"
+            src="Assets/waving.svg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="caroisel-img"
-            src="/Assets/Background.png"
+            src="Assets/Background.png"
             alt="Second slide"
           />
           <Carousel.Caption>
